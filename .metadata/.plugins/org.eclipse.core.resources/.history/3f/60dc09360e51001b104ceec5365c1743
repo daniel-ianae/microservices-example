@@ -1,0 +1,5 @@
+package com.gita.netflixzuulapigatewayserver;
+
+public class ZuulLoggingFilter {
+
+}

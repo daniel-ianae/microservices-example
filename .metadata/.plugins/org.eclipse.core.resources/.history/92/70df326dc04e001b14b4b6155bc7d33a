@@ -1,0 +1,9 @@
+package com.gita.limitsservice;
+
+public class LimitsConfigurationController {
+	
+	public LimitConfiguration retrieveLimitsConfiguration() {
+		
+	}
+
+}

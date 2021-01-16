@@ -1,0 +1,15 @@
+package com.gita.currencyconversorservice;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
+
+@SpringBootApplication
+@EnableFeignClients("com.gita.currencyconversorservice")
+public class CurrencyConversorServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CurrencyConversorServiceApplication.class, args);
+	}
+
+}

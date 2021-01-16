@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.springframework.http.converter.json.MappingJacksonValue"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.ser.impl.SimpleBeanPropertyFilter"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.support.RequestContext"/>
+    <fullyQualifiedTypeName name="com.netflix.zuul.context.RequestContext"/>
+    <fullyQualifiedTypeName name="java.util.logging.Logger"/>
+    <fullyQualifiedTypeName name="org.slf4j.Logger"/>
+    <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+</qualifiedTypeNameHistroy>

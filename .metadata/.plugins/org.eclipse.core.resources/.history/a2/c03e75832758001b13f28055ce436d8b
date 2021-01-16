@@ -1,0 +1,29 @@
+package lambdaDemos;
+
+public class Pessoa {
+	
+	private String idade;
+	private String nome;
+	
+	
+	
+	public Pessoa(String idade, String nome) {
+		super();
+		this.idade = idade;
+		this.nome = nome;
+	}
+	public String getIdade() {
+		return idade;
+	}
+	public void setIdade(String idade) {
+		this.idade = idade;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	
+}

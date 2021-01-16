@@ -1,0 +1,13 @@
+package com.gita.currencyconversorservice;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CurrencyConversorServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CurrencyConversorServiceApplication.class, args);
+	}
+
+}

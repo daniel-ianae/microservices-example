@@ -1,0 +1,5 @@
+package com.gita.currencyexchangeservice;
+
+public class ExchangeValueRepository {
+
+}

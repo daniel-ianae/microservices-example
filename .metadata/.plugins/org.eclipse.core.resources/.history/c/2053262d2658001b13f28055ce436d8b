@@ -1,0 +1,20 @@
+package lambdaDemos;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class lambdaApp {
+	
+
+
+	public static void main(String[] args) {
+		Runnable r = new Runnable() {
+		     public void run() {
+		          System.out.println("Thread com classer interna!");
+		     }
+		};
+		new Thread(r).start();
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.gita.currencyexchangeservice.bean;
+
+public class ExchangeValue {
+
+}

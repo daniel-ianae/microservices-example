@@ -1,0 +1,29 @@
+package com.gita.currencyexchangeservice;
+
+import java.math.BigDecimal;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.web.ServerProperties;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.gita.currencyexchangeservice.ExchangeValue;
+
+@RestController
+public class CurrencyExchangeController {
+	
+	@Autowired
+	private ServerProperties serverProperties;
+	
+	@GetMapping("/currency-exchange/from/{from}/to/{to}")
+	public ExchangeValue retrieveExchangeValue(@PathVariable String from,
+			@PathVariable String to) {
+
+			ExchangeValue exchangeValue = new ExchangeValue (10000L, from, to, new BigDecimal(55));
+			
+			exchangeValue.setPort(serverProperties.getPort());
+			return exchangeValue;
+	}
+
+}
